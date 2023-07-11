@@ -16,12 +16,6 @@ repositories {
 		url = 'https://ladysnake.jfrog.io/artifactory/mods'
 	}
 	maven {
-		url = 'https://maven.cafeteria.dev/releases'
-		content {
-			includeGroup 'net.adriantodt.fabricmc'
-		}
-	}
-	maven {
 		url "https://maven.jamieswhiteshirt.com/libs-release"
 		content {
 			includeGroup "com.jamieswhiteshirt"
@@ -48,8 +42,8 @@ dependencies {
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-	modImplementation "com.github.apace100:apoli:${project.apoli_version}"
-	include "com.github.apace100:apoli:${project.apoli_version}"
+	modImplementation "com.github.Alliegaytor:apoli:${project.apoli_version}"
+	include "com.github.Alliegaytor:apoli:${project.apoli_version}"
 	modImplementation "com.github.apace100:calio:${project.calio_version}"
 	modImplementation "io.github.onyxstudios.Cardinal-Components-API:cardinal-components-base:${cca_version}"
 	modImplementation "io.github.onyxstudios.Cardinal-Components-API:cardinal-components-entity:${cca_version}"

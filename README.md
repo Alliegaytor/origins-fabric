@@ -1,3 +1,8 @@
+# This is a fork of the Origins Mod
+This project aims to get a buildable version of origins 1.1.4 working of Minecraft 1.17.1 as it was producing build errors when it was a dependency for my mod.
+
+It uses my own custom fork of apoli, so this mod should only be used if nothing else works (like in my case).
+
 # Origins Mod for Minecraft
 
 https://www.curseforge.com/minecraft/mc-mods/origins
